@@ -7,3 +7,5 @@ seaborn
 spacy
 transformers
 torch
+sentence-transformers
+huggingface_hub
