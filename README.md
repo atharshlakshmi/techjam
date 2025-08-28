@@ -14,6 +14,7 @@ create .env file with this inside
 ```
 KAGGLE_USERNAME=username
 KAGGLE_KEY=key
+HF_TOKEN=huggingfacetoken
 ```
 the gitignore is set up so that the data does not take up space 
 
