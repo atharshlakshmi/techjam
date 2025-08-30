@@ -36,7 +36,7 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
-### 4. Install data
+#### 4. Install data
 > The dataset is **not committed** to Git (protected by `.gitignore`). 
 1. Go to UCSD Google Local Dataset (https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/).
 2. Download complete 'Other' reviews and metadata.
@@ -46,13 +46,13 @@ data/raw
 ```
 
 
-### 5. Setup Environment Variables
+#### 5. Setup Environment Variables
 Create a .env file in the project root with:
 ```
 HF_TOKEN=yourhuggingfacetoken
 ```
 
-### 6. To Reproduce Results
+## To Reproduce Results
 1. Download the data as mentioned above.
 2. Visit pre_processing/process_data.ipynb to explore the data.
 3. Label the data by running both labelling/hand_label_data.py and labelling/qwen_label_data.ipynb.
@@ -60,7 +60,7 @@ HF_TOKEN=yourhuggingfacetoken
 5. Train the model and get your results by running models/logistic_regression.ipynb. 
 6. To classify a new set of data, clean and extract its features before inputting it into the model.
 
-### 7. Future Improvements
+## Future Improvements
 1. Fine-tune larger pre-trained models on more labeled reviews.
 2. Add metadata features (e.g., GPS proximity, user history).
 3. Deploy as a real-time API with explainability (XAI).
