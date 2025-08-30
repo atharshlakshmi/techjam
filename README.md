@@ -61,6 +61,6 @@ HF_TOKEN=yourhuggingfacetoken
 6. To classify a new set of data, clean and extract its features before inputting it into the model.
 
 ## Future Improvements
-1. Fine-tune larger pre-trained models on more labeled reviews.
+1. Fine-tune larger pre-trained models on more labelled reviews.
 2. Add metadata features (e.g., GPS proximity, user history).
 3. Deploy as a real-time API with explainability (XAI).
