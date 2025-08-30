@@ -1,11 +1,7 @@
-kaggle
-python-dotenv
-numpy
 pandas
-matplotlib
-seaborn
+scikit-learn
+scipy
 spacy
 transformers
 torch
-sentence-transformers
-huggingface_hub
+huggingface-hub
